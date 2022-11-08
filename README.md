@@ -1,7 +1,6 @@
 # Who’s next?: Extinction 🦕🦖🧌
 
 > Global Climate change & its effects
-
 - [ ] Our team is passionate about science 👩‍🔬
 
 We want to understand if global temperatures have changed within the last 20 years, and what temperatures would look like in the future 20 years from today.
