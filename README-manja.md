@@ -10,7 +10,6 @@ Since the original file was a workbook with 4 sheets, the data was then split in
    
 Next, a Jupyter notebook with Python file (sea_ice.ipynb) was created to analyze the data.  The following steps were taken:
 * All 4 csv files were uploaded individually and made into DataFrames using Pandas.
-* 
 * Each file was manipulated so that the index was the year and the second column was either "Sea Ice NH Area", "Sea Ice NH Extent", "Sea Ice SH Area", or "Sea Ice NH Extent. Below is a snapshot of the head of each DataFrame. 
   ![](Resources/4_df.jpg)
 * Next, all 4 DataFrames were merged into one DataFrame as seen below:
@@ -21,4 +20,8 @@ Next, a Jupyter notebook with Python file (sea_ice.ipynb) was created to analyze
  
 ## Are Global Surface Temperatures Increasing?
 The data used for this analysis was extracted from the Food and Agriculture Orangization of the United Nations (FAO) as the file "data\Annual_Surface_Temperature_Change.csv".  Data is separated by country and shows the mean temperature change with respect to a baseline climatology, corresponding to the period 1951–1980.  The global mean surface air temperature for 1951-1980 period was about 14°C (57°F), with an uncertainty of several tenths of a degree.
+
+The Jupyter notebook file temperature.ipynb was then created to anlayze the data. The following steps were taken:
+* The original csv file "data/Annual_Surface_Temperature_Change.csv" was uploaded and turned into a DataFrame using Pandas.  There were originally 227 rows (countries) and 71 columns (data).
+* The data was then cleaned and filtered so 
 
