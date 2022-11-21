@@ -42,6 +42,8 @@ In the screenshots from Matplotlib, you’ll find a positive trend line. We plan
 Update 11/20: 
 
 I created 3 separate supprting documents for the whole team to work on that will guide the main project to completion. 
+
+
 1st doc = final project google slides (https://docs.google.com/presentation/d/1OCcpPCFstG_TmgeyxjIWLizuJ5WkOVaHhz27OCaOcGs/edit?usp=sharing)
 
 
