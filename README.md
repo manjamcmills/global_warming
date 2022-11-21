@@ -38,3 +38,15 @@ The year-on-year changes in the CO₂ concentrations are calculated by the IMF.
 --- Main measurement in my data source included measuring the % of Monthly Atmospheric Carbon Dioxide Concentration (CO2 saturation in Earth's atmosphere (the air that we breathe)) from 1960-2021 as well as measuring the Parts Per Million (Atmospheric Carbon Dioxide Concentrations in PPM) in the same timeframe. 
 
 In the screenshots from Matplotlib, you’ll find a positive trend line. We plan to investigate what that means with CO2 and how that contributes to rising temperatures. 
+
+Update 11/20: 
+
+I created 3 separate supprting documents for the whole team to work on that will guide the main project to completion. 
+1st doc = final project google slides
+2nd doc = data gathering google sheets 
+3rd doc = final read.me collab. 
+
+- wrote the script + collaborated with everyone on the group project every single day this week for 2-3 hours each day
+- gathered all data references and will prepare final collaboration soon
+
+We added in a specific theme to our final presentation (took feedback from first run through) and now we're ready to go. 
