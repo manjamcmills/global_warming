@@ -42,11 +42,11 @@ In the screenshots from Matplotlib, you’ll find a positive trend line. We plan
 Update 11/20: 
 
 I created 3 separate supprting documents for the whole team to work on that will guide the main project to completion. 
-1st doc = final project google slides
-2nd doc = data gathering google sheets 
-3rd doc = final read.me collab. 
+1st doc = final project google slides (https://docs.google.com/presentation/d/1OCcpPCFstG_TmgeyxjIWLizuJ5WkOVaHhz27OCaOcGs/edit?usp=sharing)
+2nd doc = data gathering google sheets (https://docs.google.com/document/d/1uH294wUx5PHa5RpVKROHF2aiceWwoX-AfSVVuE2yENs/edit?usp=sharing)
+3rd doc = final read.me collab (https://docs.google.com/document/d/15LfPm26SNHDJaf7dodAzpAEFRJjo9Nwthoa7QHXQMRM/edit?usp=sharing)
 
 - wrote the script + collaborated with everyone on the group project every single day this week for 2-3 hours each day
-- gathered all data references and will prepare final collaboration soon
+- gathered all data references and will prepare final collaboration soon (https://drive.google.com/drive/folders/1XY-tv6LLvYMd8pgCdMizqsPuJgdGMjNM?usp=sharing)
 
 We added in a specific theme to our final presentation (took feedback from first run through) and now we're ready to go. 
