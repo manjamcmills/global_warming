@@ -42,12 +42,12 @@ Here's a screenshot of what our database began to look like at the beginning:
 
 
 After examining close to 30 different Kaggle datasets in jupyter notebook, we found that many datasets could not be used for the final analysis due to multiple reasons: column headers were too ambiguous, references were not available, missing row data. 
-Kaggle was a great starting point, but ultimately, we found enriching datasets from <https://climatedata.imf.org/> which the most complete reference page. 
+Kaggle was a great starting point, but ultimately, we used datasets from <https://climatedata.imf.org/>
 
 Each of us used <https://climatedata.imf.org/> as the centralized point to find additional data sources from its reference page that could help support our 4 categories (Sea levels, Carbon emissions, Polar ice caps, Surface temperatures). 
 Instead of using a SQL database for our analysis, we decided that loading the csv directly from a data folder and looking at the files in jupyter notebook (importing pandas and matplotlib) would be faster, easier to edit the column headers, and produce a quick visualization to see if we were going in the right direction was best. 
 
-This process took about 1 week to complete and we decided to keep our data folder open in case we found richer data later on. 
+This process took about 1 week to complete and we decided to keep our data folder open in case we found additional data later on. 
 
 *Summary Phase 1:*
 
