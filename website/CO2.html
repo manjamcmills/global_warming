@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Extinct: Who's next?</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .bold{
+      font-weight: bold;
+      font-size: 17px;
+      font-family: 'Arial';
+    }
+    .yellow-div {
+      padding:25px;
+    }
+  </style>
+</head>
+
+<body class = 'yellow-div'>
+
+  <div class="jumbotron text-center" style ="background-image: url(https://assets.terrapass.com/wp-content/uploads/2022/08/carbon-dioxide-emissions-from-electricity-photo-of-factory-smoke.jpg); background-size: 100%;">
+            <h1 style="color:black;font-size:90px"><b>EXTINCT: WHO'S NEXT? </b> </h1>
+            <a href="index.html" style = "font-size: 25px; color:blue " target = "_self" >
+            <img src="home.jpg" width="30" class="img-fluid" alt="">
+                 <b>Home</b></a>
+                 &nbsp; &nbsp;     &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+                 <a href="temp.html" style = "font-size: 25px; color:green" target = "_self" >
+                  <img src="co2.jpg" width="30" class="img-fluid" alt="">
+                       <b>CO2 Data</b></a>
+                       &nbsp; &nbsp;     &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+                                      
+        
+                 <a href="temp.html" style = "font-size: 25px; color:yellow" target = "_self" >
+            <img src="temp.jpg" width="30" class="img-fluid" alt="">
+                 <b>Temperature Data</b></a>
+                 &nbsp; &nbsp;     &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+                
+        
+                
+        
+                 <a href="sea_ice.html" style = "font-size: 25px; color:orangered" target = "_self" >
+            <img src="seaice.jpg" width="30" class="img-fluid" alt="">
+                 <b>Sea Ice Data</b></a>
+                 &nbsp; &nbsp;     &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp;   &nbsp; &nbsp; 
+                
+        
+                 <a href="sea_level.html" style = "font-size: 25px; color:purple" target = "_self" >
+            <img src="sealevel.jpg" width="30" class="img-fluid" alt="">
+            <b>Sea Level Data</b></a>
+            </div>
+            <div class="row">
+              <div class="col-md-9">
+                <div id="CO2"></div>
+            </div>
+          
+            <div class="col-md-3">
+              <a href="https://fairsupply.com.au/carbon-emissions-net-zero-decarbonisation-overview/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavWlJINV3j8E3Fy5-9OE4UCEJDb6BTaAYbfOWmX-o0Nc8l9F0iwXqwEaAkYPEALw_wcB#what-are-carbon-emissions" style = "font-size: 25px; color:purple" target = "_blank" >
+                <b>What are Carbon Emissions? </b></a><br><p style = "font-size: 20px; color:black" >Carbon emissions are the release of climate-potent carbon dioxide gases (CO2) which is released into the atmosphere. CO2 is the greenhouse gas which is released the most in terms of quantity, usually through the burning of fossil fuels. CO2 emissions from human activity is the single biggest major contributor to rising CO2 levels, primarily from the energy production and industry sectors. Emissions of carbon dioxide and other greenhouse gases (GHGs) are the leading cause of climate change and global warming. </p>
+            </div>
+          </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well" style="background-color:red;"  >
+          <h4><strong>Select a Country</strong></h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" class="form-control" style = "font:size: 50" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading" style="background-color:orange;">
+            <h1 style = "color:black"; class="panel-title"><strong>Country Info</strong></h1>
+          </div>
+          <div id="sample-metadata" class="panel-body" ></div>
+        </div>
+        <div>
+          <a href="https://climatedata.imf.org/datasets/9c3764c0efcc4c71934ab3988f219e0e_0/about" style = "font-size: 25px; color:red" target = "_blank"  >
+            <b>DATA SOURCE </b></a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div id="bar"></div>
+      </div>
+    </div>
+
+  
+  </div>
+  <div>
+    <div class="row"> 
+    <img src="https://cbs6albany.com/resources/media/e235e844-0e87-40aa-a658-609e191edfd2-large16x9_2022CarbonTempRise.png?1652396093865" width="600" class="img-fluid" alt="">
+    <img src = 'car.png'  width="450" class="img-fluid" alt="">
+    <img src="https://image-renderer.sinclairstoryline.com/prod/image-renderer/original/full/1600/center/80/580b2117-53b2-43e3-8d80-0fd699c6c3d4-2022GlobalEmissions.jpg"  width="600" class="img-fluid" alt="">
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="plots_CO2.js"></script>
+
+</body>
+
+</html>
